@@ -1,0 +1,33 @@
+<style>img{
+  text-align:center;
+ max-width: 300px;  
+height: auto;  
+}
+h1{
+  background-color:black;
+  color:white;  
+}
+.label{
+  position: relative;
+  top:-60px;
+}
+header{
+  background-color:black;
+}
+.nav-link:hover{
+  color:white;
+}
+.nav-link{
+  color:yellow;
+  font-size:22px;
+  right:200px;
+  display:inline;
+  padding:20px;
+  padding-left: 20px;
+}
+ul{
+   list-style-type: none;
+   display: inline;
+  padding-right: 20px;
+}
+</style>
