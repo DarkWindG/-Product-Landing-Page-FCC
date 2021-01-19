@@ -1,9 +1,11 @@
-<html><header id="header">
+<html><head></head>
+  <body>
+
+    <header id="header">
   <div>
      <h1>
-       <img id="header-img"            src="https://tinyurl.com/yyacqp8z
-  "/>
-    <label class="label"><b>Educational Porn</b></label>
+       <img id="header-img" src="https://tinyurl.com/yyacqp8z"/>
+    <label class="label"><b></b></label>
     </h1>
   </div>
   
@@ -14,17 +16,15 @@
         <li class="nav-link" href="#about">About</li>
         </ul>
     </nav>
-      </header>
-  <body>
-    
+    </header>
+
+
     <form id="form" action="https://www.freecodecamp.com/email-submit">
       <label class="form"><b>Enter your email to start</b></label><br>
             <input type="email" id="email" placeholder="Enter your Email Here" class="form-email" name="email">             
             </input>
     <input id="submit" type="submit"value"Get Started"></input>
-  <form
-       
-          </form>
+  
     
     <div class="container">
       <section id=videos>
@@ -36,32 +36,35 @@
           
       <section id="picture">
          <div class=grid>
-           <a>Pictures</a>
+           <a>Pictures</a><br>
+           <img src="https://i.ytimg.com/vi/_gjl-h4HsQU/maxresdefault.jpg">
         </div>
       </section>
           
        <section id="about">
         <div class=grid>
-          <a>About</a>
+          <a>About</a><br>
+          <p>Just a random project from freecodecamp with random things.</p>
         </div>
       </section>
       </div>
         
       
   </body>
-  <style>img{
+  <style>
+  img{
   text-align:center;
- max-width: 200px;  
-height: auto;  
+  max-width: 300px;  
+  height: auto;  
 }
 h1{
   background-color:black;
   color:white; 
-  max-widht: 100px;
 }
 .label{
   position: relative;
-  top:-100px;
+  top:-40px;
+  display:flex;
 }
 header{
   background-color:black;
@@ -69,9 +72,10 @@ header{
   width: 100%;
   top: 0;
   left: 0;
-  height:0px;
+  height:5em;
   color: white;
-  margin-top:-70px;
+  margin-top:-50px;
+  z-index:1;
 }
 .nav-link:hover{
   color:white;
@@ -79,19 +83,19 @@ header{
 .nav-link{
   color:yellow;
   font-size:22px;
-  right:-100px;
+  right:-300px;
   display:inline;
   padding:20px;
   padding-left: 20px;
-  top:-70px;
-  position:relative
+  top:-60px;
+  position: relative;
 }
 ul{
    list-style-type: none;
    display: inline;
   padding-right: 20px;
 }
-video{}
+
 .grid{
   text-align:center;
   padding-top:40px;
@@ -103,13 +107,16 @@ video{}
 }
 form{
   text-align:center;
-  padding-top:300px;
+  padding-top:200px;
   font-size:30px;
   
 }
 .form-email{
   width:200px;
 }
+p{
+  font-size: 16px;
+}
 </style>
 
-  </html>
+</html>
